@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.buton{
+   position: absolute;
+   top: 90vh;
+    right: 0;
+    opacity: 0.7;
+    margin: 20px;
+    
+}
+.buton2{
+  left: 10px;
+  top: 90vh;
+}
+audio{
+    animation-delay: inherit;
+    opacity: 0.5;
+    margin: 1px;
+}
+#myIfr{
+    min-height: 100%;
+}
+button:hover{
+    color: rgb(210, 30, 30);
+    background-color: green;
+}

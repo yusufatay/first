@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rastgele Resim</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body background="http://unsplash.it/1499/1000">
+
+    <div class="buton buton2" >
+          <audio autoplay controls loop>
+            <source src="music.mp3" type="audio/mp3">
+          </audio>
+    </div>
+    <div class="iframe">
+        <iframe id="myIfr" src="http://unsplash.it/1499/1000" frameborder="0"></iframe>
+    </div>
+
+    <div class="buton">
+        <button onclick="reloadFrame()">Yeni Resim</button>
+    </div>
+      
+
+    <style>
+        iframe{
+  width:100vw;
+  height: 100vh;
+}
+
+    button{
+  cursor:pointer;
+  font-size: 30px;
+  background-color: red;
+  border-radius: 30%;
+}
+    </style>
+
+ <script>
+       function reloadFrame(){
+  document.getElementById('myIfr').src = document.getElementById('myIfr').src;
+}
+</script>
+      
+</body>
+</html>
